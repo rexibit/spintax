@@ -24,36 +24,35 @@
 #
 #
 
-from setuptools import setup, find_packages
+import os
+from setuptools import setup
+
+def read(fname):
+    return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 DESCRIPTION = 'Spintax Management Utility'
 LONG_DESCRIPTION = None
 
 try:
-	LONG_DESCRIPTION = open('README.txt').read()
+	LONG_DESCRIPTION = read('README.txt')
 except:
 	pass
 
 CLASSIFIERS = [
-	'Development Status :: 1 - Beta',
 	'Intended Audience :: Developers',
 	'Operating System :: OS Independent',
 	'Programming Language :: Python',
-	'Framework :: None',
-	'Topic :: Data Management',
 	'Topic :: Software Development :: Libraries :: Python Modules',
-	'License :: GNU General Public License :: BSD license',
+	'License :: OSI License :: BSD license',
 ]
 
 setup(name = 'Spintax',
-	packages = find_packages(),
+	packages = ['spintax'],
 	author = 'Matthew Watts',
 	author_email = 'matthew@rexibit.com',
 	url = 'https://github.com/rexibit/spintax',
 	description = DESCRIPTION,
 	long_description = LONG_DESCRIPTION,
-	platforms = ['any'],
 	classifiers = CLASSIFIERS,
-	install_requires = [],
-	version = '1.0',
+	version = '1.0.1',
 )
