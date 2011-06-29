@@ -8,7 +8,7 @@ It's too bad that more people don't make use of it. That's where this class come
 Spintax is developed using Python 2.7 and hasn't been tested in prior versions.
 It is basically a port and clean up of the PHP methods used on http://www.getspintax.com
 
-Github Repository URL: https://github.com/rexibit/Spintax
+Github Repository URL: https://github.com/rexibit/spintax
 
 **Use**
 
