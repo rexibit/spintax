@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#	   run.py
+#		run.py
 #		Function: Enable command line access to the Spintax class
+#		Github Repository URL: https://github.com/rexibit/Spintax
 #
 #	   Copyright 2011 Matthew Watts <matthew@rexibit.com>
 #

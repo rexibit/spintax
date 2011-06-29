@@ -3,6 +3,7 @@
 #
 #		spintax.py
 #		Function: Manage Spintax
+#		Github Repository URL: https://github.com/rexibit/Spintax
 #
 #	   Copyright 2011 Matthew Watts <matthew@rexibit.com>
 #
