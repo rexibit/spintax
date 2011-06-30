@@ -110,7 +110,7 @@ You can also customize new link types by using string Templates and adding to th
 		#Outputs: <a href="http://www.example1.com">text part 1</a>
 		print spintax.get_link(link_type_string, string, url_string)
 
-**Command Link Run Script**
+**Command Line Run Script**
 
 The Spintax class is very versatile, but if you just want to quickly spin something from a text file, the run.py script is it.
 
