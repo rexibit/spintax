@@ -46,7 +46,7 @@ class Spintax:
 			return spun_string
 
 		except TypeError:
-			print 'Arguments should contain two lists and a string.'
+			raise 'Arguments should contain two lists and a string.'
 
 	def get_spun_links(self, list_to_spin, links_to_spin, bracket_list, delimiter, link_type):
 		spun_string = self.get_spintax(list_to_spin, bracket_list, delimiter)
@@ -66,7 +66,7 @@ class Spintax:
 			return self.get_link(link_type, spun_string, spun_link)
 
 		except TypeError:
-			print 'Arguments should contain three lists and two strings.'
+			raise 'Arguments should contain three lists and two strings.'
 
 	# Unspin spintax
 	def unspin(self, spun_string, delimiter):
@@ -92,7 +92,7 @@ class Spintax:
 			return bracket_types[bracket_type_name]
 
 		except:
-			print 'There is no bracket type by that name.'
+			raise 'There is no bracket type by that name.'
 
 	# Convert a spun string to be URL friendly
 	def get_url_version(self, spun_string):
@@ -103,7 +103,7 @@ class Spintax:
 			return spun_string
 
 		except:
-			print 'There was an error with the passed spun string, Be sure to only include alpha-numeric characters and spaces.'
+			raise 'There was an error with the passed spun string, Be sure to only include alpha-numeric characters and spaces.'
 
 	# A dictionary of all the link types
 	# Returns a formatted link of the passed link type
