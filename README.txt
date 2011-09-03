@@ -142,5 +142,5 @@ Examples
 - Print out a spun list of links
 	::
 		$ python run.py -m links -l "/path/to/links/file/links.txt" "/path/to/list/file/list.txt"
-		$ <a href="{http://www.example1.com|http://www.example2.com|http://www.example3.com
+		$ <a href="{http://www.example1.com|http://www.example2.com|http://www.example3.com}
 		">{text part 1|text part 2|text part 3}</a>
